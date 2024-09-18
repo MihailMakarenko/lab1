@@ -1,0 +1,14 @@
+.background-color-anchors {
+    color: #0b3b3c;
+  }
+
+  .header-container-link {
+    margin: auto 0;
+    display: flex;
+    font-size: 12px;
+  }
+
+  .header-container-link-right {
+    gap: 14px;
+  }
+

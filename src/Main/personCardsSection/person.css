@@ -1,0 +1,46 @@
+.main-container-card {
+    margin: 0 auto 26px auto;
+    max-width: 1132px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    flex-shrink: 1;
+    width: 377px;
+    min-height: 480px;
+    max-width: 400px;
+  }
+  .card h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px; /* 160% */
+    letter-spacing: 0.84px;
+    max-width: 333px;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+  .card p {
+    padding: auto 5px;
+    margin: auto;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 333px;
+  }
+  .card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 372px;
+  }
+  .card div {
+    max-height: 283px;
+    max-width: 377px;
+  }
+
+  @media screen and (width < 500px){
+    .card img {
+      width: 300px;
+      height: auto;
+    }
+  }

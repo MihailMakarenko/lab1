@@ -1,0 +1,36 @@
+.central-nameCompany {
+    margin: 0px;
+    text-align: center;
+  
+  }
+
+  .central-nameCompany h1{
+    margin: 0;
+    padding: 0;
+    vertical-align: auto;
+    height: 100%;
+  }
+
+  header {
+    max-width: 1440px;
+    margin: 0 15px;
+    margin-bottom: 60px;
+  }
+
+  .header-container {
+    max-height: 44px;
+    margin: 18px auto;
+    max-width: 1360px;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+  }
+
+  .header-container {
+    max-height: 44px;
+    margin: 18px auto;
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
